@@ -1,0 +1,43 @@
+﻿  pch.cpp
+  dllmain.cpp
+  Hook.cpp
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\hook\hook.cpp(828): warning C4477: “sscanf_s”: 格式字符串“%X”需要类型“unsigned int *”的参数，但可变参数 1 拥有了类型“BYTE *”
+  f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\hook\hook.cpp(828): note: 请考虑在格式字符串中使用“%hhX”
+  Array.cpp
+  Blob.cpp
+  Bool.cpp
+  DataSet.cpp
+  Double.cpp
+  Float.cpp
+  Heap.cpp
+  Int16.cpp
+  Int32.cpp
+  Int64.cpp
+  Int8.cpp
+  Json.cpp
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(106): warning C4244: “=”: 从“unsigned long”转换到“int16_t”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(120): warning C4244: “=”: 从“unsigned long”转换到“int8_t”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(165): warning C4244: “=”: 从“unsigned long”转换到“uint16_t”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(180): warning C4244: “=”: 从“unsigned long”转换到“uint8_t”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(194): warning C4244: “=”: 从“unsigned __int64”转换到“uint32_t”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(576): warning C4244: “=”: 从“unsigned long”转换到“int16_t”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(591): warning C4244: “=”: 从“unsigned long”转换到“int8_t”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(639): warning C4244: “=”: 从“unsigned long”转换到“uint16_t”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(655): warning C4244: “=”: 从“unsigned long”转换到“uint8_t”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(670): warning C4244: “=”: 从“unsigned __int64”转换到“uint32_t”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(842): warning C4244: “参数”: 从“int64_t”转换到“int”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(866): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(872): warning C4244: “参数”: 从“float_t”转换到“int”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(878): warning C4244: “参数”: 从“double_t”转换到“int”，可能丢失数据
+  Null.cpp
+  Object.cpp
+  String.cpp
+  StrTool.cpp
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\strtool.cpp(921): warning C4244: “return”: 从“unsigned __int64”转换到“size_t”，可能丢失数据
+  UInt16.cpp
+  UInt32.cpp
+  正在编译...
+  UInt64.cpp
+  UInt8.cpp
+LINK : warning LNK4068: 未指定 /MACHINE；默认设置为 X86
+  Object.vcxproj -> F:\cpp_prj\tenxun\TIMSDK\cross-platform\Windows\IMApp\Object\..\Build\Bin\Win32\Release\Object.lib

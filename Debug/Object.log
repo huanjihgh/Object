@@ -1,0 +1,97 @@
+﻿  pch.cpp
+  dllmain.cpp
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\include\json.hpp(4): warning C4005: “_CRT_SECURE_NO_WARNINGS”: 宏重定义
+  f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\dllmain.cpp: note: 参见“_CRT_SECURE_NO_WARNINGS”的前一个定义
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\include\file.hpp(29): warning C4244: “初始化”: 从“std::streamoff”转换到“size_t”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\include\file.hpp(37): warning C4244: “初始化”: 从“std::streamoff”转换到“size_t”，可能丢失数据
+  Hook.cpp
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\hook\hook.cpp(842): warning C4477: “sscanf_s”: 格式字符串“%X”需要类型“unsigned int *”的参数，但可变参数 1 拥有了类型“BYTE *”
+  f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\hook\hook.cpp(842): note: 请考虑在格式字符串中使用“%hhX”
+  AES.cpp
+  md5.cpp
+  sha1.cpp
+  tinystr.cpp
+  tinyxml.cpp
+  tinyxmlerror.cpp
+  tinyxmlparser.cpp
+  AesHelper.cpp
+  Array.cpp
+  Blob.cpp
+  Bool.cpp
+  CommonHelper.cpp
+  Convert.cpp
+  DataSet.cpp
+  Double.cpp
+  FieldHelper.cpp
+  Float.cpp
+  Format.cpp
+  正在生成代码...
+  正在编译...
+  Int16.cpp
+  Int32.cpp
+  Int64.cpp
+  Int8.cpp
+  Json.cpp
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\include\json.hpp(4): warning C4005: “_CRT_SECURE_NO_WARNINGS”: 宏重定义
+  f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp: note: 参见“_CRT_SECURE_NO_WARNINGS”的前一个定义
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(45): warning C4244: “=”: 从“unsigned long”转换到“int8_t”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(57): warning C4244: “=”: 从“unsigned long”转换到“int16_t”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(99): warning C4244: “=”: 从“unsigned long”转换到“uint8_t”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(112): warning C4244: “=”: 从“unsigned long”转换到“uint16_t”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(126): warning C4244: “=”: 从“unsigned __int64”转换到“uint32_t”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(278): warning C4244: “=”: 从“unsigned long”转换到“int8_t”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(292): warning C4244: “=”: 从“unsigned long”转换到“int16_t”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(334): warning C4244: “=”: 从“unsigned long”转换到“uint8_t”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(347): warning C4244: “=”: 从“unsigned long”转换到“uint16_t”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(361): warning C4244: “=”: 从“unsigned __int64”转换到“uint32_t”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(718): warning C4244: “=”: 从“unsigned long”转换到“int16_t”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(732): warning C4244: “=”: 从“unsigned long”转换到“int8_t”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(776): warning C4244: “=”: 从“unsigned long”转换到“uint16_t”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(791): warning C4244: “=”: 从“unsigned long”转换到“uint8_t”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(805): warning C4244: “=”: 从“unsigned __int64”转换到“uint32_t”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(995): warning C4244: “参数”: 从“int64_t”转换到“int”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(1019): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(1025): warning C4244: “参数”: 从“float_t”转换到“int”，可能丢失数据
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\json.cpp(1031): warning C4244: “参数”: 从“double_t”转换到“int”，可能丢失数据
+  KeyMap.cpp
+  Null.cpp
+  Object.cpp
+  String.cpp
+  StrTool.cpp
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\strtool.cpp(982): warning C4244: “return”: 从“unsigned __int64”转换到“size_t”，可能丢失数据
+  Scheduled.cpp
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\include\heap.h(122): warning C4018: “<”: 有符号/无符号不匹配
+  f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\include\heap.h(118): note: 编译 类 模板 成员函数 "bool object::Heap<std::shared_ptr<object::TimerTask>>::removeEl(T)" 时
+          with
+          [
+              T=std::shared_ptr<object::TimerTask>
+          ]
+  f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\task\scheduled.cpp(143): note: 参见对正在编译的函数 模板 实例化“bool object::Heap<std::shared_ptr<object::TimerTask>>::removeEl(T)”的引用
+          with
+          [
+              T=std::shared_ptr<object::TimerTask>
+          ]
+  f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\task\scheduled.cpp(93): note: 参见对正在编译的 类 模板 实例化 "object::Heap<std::shared_ptr<object::TimerTask>>" 的引用
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\include\heap.h(43): warning C4018: “<”: 有符号/无符号不匹配
+  f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\include\heap.h(34): note: 编译 类 模板 成员函数 "void object::Heap<std::shared_ptr<object::TimerTask>>::addEl(T)" 时
+          with
+          [
+              T=std::shared_ptr<object::TimerTask>
+          ]
+  f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\task\scheduled.cpp(128): note: 参见对正在编译的函数 模板 实例化“void object::Heap<std::shared_ptr<object::TimerTask>>::addEl(T)”的引用
+          with
+          [
+              T=std::shared_ptr<object::TimerTask>
+          ]
+  TaskQueue.cpp
+  UInt16.cpp
+  UInt32.cpp
+  UInt64.cpp
+  UInt8.cpp
+  WString.cpp
+  XmlDoc.cpp
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\xmldoc.cpp(18): warning C4018: “<=”: 有符号/无符号不匹配
+f:\cpp_prj\tenxun\timsdk\cross-platform\windows\imapp\object\object\xmldoc.cpp(38): warning C4018: “<=”: 有符号/无符号不匹配
+  正在生成代码...
+LINK : warning LNK4068: 未指定 /MACHINE；默认设置为 X86
+  Object.vcxproj -> F:\cpp_prj\tenxun\TIMSDK\cross-platform\Windows\IMApp\Object\..\Build\Bin\Win32\Debug\Object.lib

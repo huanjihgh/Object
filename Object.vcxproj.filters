@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="object">
+      <UniqueIdentifier>{2600d2eb-fe83-4bed-b9ef-5a589b060bdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hook">
+      <UniqueIdentifier>{d555f967-fcd3-4d48-a295-37c9c5425d7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{7ff3729f-2040-4caf-8d36-2db005484065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\task">
+      <UniqueIdentifier>{173a2c34-9834-4bd9-8bb0-f95cccdd4cb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\task">
+      <UniqueIdentifier>{3704d60d-2dcb-4e59-ad4b-985255ffb50a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\db">
+      <UniqueIdentifier>{732a3703-766a-456b-ba75-c60ccffdac0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\aes">
+      <UniqueIdentifier>{872d7540-6b59-42f0-bfb1-1520dca6395d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\crypto">
+      <UniqueIdentifier>{dda70d40-1d97-4a3d-ad00-8206dc176aba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Blob.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Bool.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\databuf.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataSet.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Declare.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Double.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\File.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Float.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HashTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Heap.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HLib.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Hook.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Int8.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Int16.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Int32.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Int64.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Json.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KeyMap.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Null.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Object.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SharedHashTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\String.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StrTool.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UInt8.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UInt16.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UInt32.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UInt64.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WString.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Array.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\task\Scheduled.h">
+      <Filter>include\task</Filter>
+    </ClInclude>
+    <ClInclude Include="include\task\TaskQueue.h">
+      <Filter>include\task</Filter>
+    </ClInclude>
+    <ClInclude Include="include\db\SqliteHelper.hpp">
+      <Filter>include\db</Filter>
+    </ClInclude>
+    <ClInclude Include="include\db\MysqlDb.hpp">
+      <Filter>include\db</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TimeUtil.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Format.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XmlDoc.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AesHelper.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\crypto\Base64.hpp">
+      <Filter>include\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="include\crypto\crypto.hpp">
+      <Filter>include\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="include\crypto\md5.h">
+      <Filter>include\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="include\crypto\sha1.hpp">
+      <Filter>include\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FieldHelper.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonHelper.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Convert.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\Hook.cpp">
+      <Filter>hook</Filter>
+    </ClCompile>
+    <ClCompile Include="object\task\TaskQueue.cpp">
+      <Filter>object\task</Filter>
+    </ClCompile>
+    <ClCompile Include="object\task\Scheduled.cpp">
+      <Filter>object\task</Filter>
+    </ClCompile>
+    <ClCompile Include="object\Null.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="object\Object.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="object\String.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="object\StrTool.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="object\UInt8.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="object\UInt16.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="object\UInt32.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="object\UInt64.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="object\WString.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="object\Array.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="object\Blob.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="object\Bool.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="object\DataSet.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="object\Double.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="object\Float.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="object\Int8.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="object\Int16.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="object\Int32.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="object\Int64.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="object\Json.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="object\KeyMap.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="object\Format.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="object\XmlDoc.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="include\xml\tinystr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\xml\tinyxml.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\xml\tinyxmlerror.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\xml\tinyxmlparser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="object\AesHelper.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="include\aes\AES.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="include\crypto\md5.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="include\crypto\sha1.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="object\FieldHelper.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="object\CommonHelper.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="object\Convert.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Object.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

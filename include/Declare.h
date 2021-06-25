@@ -1,0 +1,32 @@
+#pragma once
+class Object;
+class Int8;
+class Int16;
+class Int32;
+class Int64;
+class UInt8;
+class UInt16;
+class UInt32;
+class UInt64;
+class Float;
+class Double;
+class Bool;
+class String;
+class Array;
+class Null;
+
+typedef std::shared_ptr<Object> ObjectPtr;
+typedef std::shared_ptr<Int8> Int8Ptr;
+typedef std::shared_ptr<Int16> Int16Ptr;
+typedef std::shared_ptr<Int32> Int32Ptr;
+typedef std::shared_ptr<Int64> Int64Ptr;
+typedef std::shared_ptr<UInt8> UInt8Ptr;
+typedef std::shared_ptr<UInt16> UInt16Ptr;
+typedef std::shared_ptr<UInt32> UInt32Ptr;
+typedef std::shared_ptr<UInt64> UInt64Ptr;
+typedef std::shared_ptr<Float> FloatPtr;
+typedef std::shared_ptr<Double> DoublePtr;
+typedef std::shared_ptr<Bool> BoolPtr;
+typedef std::shared_ptr<String> StringPtr;
+typedef std::shared_ptr<Array> ArrayPtr;
+typedef std::shared_ptr<Null> NullPtr;
