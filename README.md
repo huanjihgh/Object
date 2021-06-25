@@ -1,6 +1,7 @@
 # Object
 这是一个c++的Object库，可以动态的创建对象，可以像其他语言一样使用Model操作mysql数据库和json对象  
-  
+只需要使用头文件#include "HLib.h",  
+HLib.h 文件在include目录里面
 1、Object是对象的基类，其他所有类都继承Object，下面是使用的例子：  
   
  （1）、定义一个Result对象  
