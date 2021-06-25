@@ -41,6 +41,26 @@ HLib.h 文件在include目录里面
         }  
         //对象转换成json字符串  
         auto jsonStr=json.ToString(rs);  
+	  
+2、动态的创建一个对象
+	//注册自定义的类Result
+	object::Type::registerType(u8"Result", [] { return std::make_shared< Result>(); })  
+	//初始化默认定义的类和刚刚自定义的类类型
+	object::Type::initStaticType();   
+	//构造一个默认类型的对象
+	auto x= object::Type::construct("Int32");  
+	//转换对象到相应的类型  
+	auto x2 = object::cast<object::Int32>(x);  
+	//下面可以直接使用该对象了
+	x2=100;
+	//自定义对象Result的使用和上面一样  
+	//构造对象  
+	auto x= object::Type::construct("Result");  
+	//转换对象到相应的类型  
+	auto x2 = object::cast<Result>(x);  
+	//使用对象
+	x2.setsuccess(true)  
+	x2.setopt(1 )  
       
   
   
